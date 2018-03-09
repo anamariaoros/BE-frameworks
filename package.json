@@ -1,0 +1,21 @@
+{
+  "name": "frameworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "express": "nodemon index.js",
+    "koa": "nodemon koa.js",
+    "hapi": "nodemon hapi.js",
+    "start": "npm run express && npm run koa && npm run hapi",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "hapi": "^17.2.2",
+    "koa": "^2.5.0",
+    "koa-route": "^3.2.0"
+  }
+}
