@@ -7,7 +7,6 @@
     "express": "nodemon index.js",
     "koa": "nodemon koa.js",
     "hapi": "nodemon hapi.js",
-    "start": "npm run express && npm run koa && npm run hapi",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
